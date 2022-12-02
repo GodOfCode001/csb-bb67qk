@@ -89,6 +89,8 @@ li:hover {
 }
 .headtext {
   font-size: 68px;
+  text-align: center;
+  margin-right: 100px;
 }
 .text {
   font-size: 24px;
@@ -188,11 +190,15 @@ footer .boxes i {
     display: flex;
     flex-direction: column;
   }
+  .headtext {
+    margin-right: 0;
+  }
   h1 {
     margin-bottom: 100px;
   }
   .main-text {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    text-align: center;
   }
   .main-img {
     max-width: 360px;
